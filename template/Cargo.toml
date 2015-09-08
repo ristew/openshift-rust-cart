@@ -1,8 +1,9 @@
 [package]
-name = "project"
-version = "0.1.0"
-authors = ["Flavio Percoco <flaper87@gmail.com>"]
+name = "rust-iron-openshift"
+version = "0.0.1"
+authors = ["Riley Stewart <riley.a.stewart@vanderbilt.edu"]
 
-[dependencies.nickel]
+[dependencies]
 
-git = "https://github.com/nickel-org/nickel.rs.git"
+iron = "*"
+router = "*"

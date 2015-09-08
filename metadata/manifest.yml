@@ -1,11 +1,11 @@
-Name: rust
-Cartridge-Short-Name: Rust
-Display-Name: Rust 1.0.0
+Name: rust iron
+Cartridge-Short-Name: Rust Iron
+Display-Name: Rust Iron 1.0.0
 Version: "1.0.0"
 Versions: ["1.0.0"]
-Website: https://github.com/FlaPer87/openshift-rust-cart
+Website: https://github.com/ristew/openshift-rust-cart
 Cartridge-Version: 0.0.1
-Cartridge-Vendor: flaper87
+Cartridge-Vendor: ristew
 Categories:
   - service
   - rustlang
