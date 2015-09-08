@@ -65,7 +65,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$RUSTROOT/lib
 echo "-----> Running: cargo build"
 cd $build
 
-cargo build --verbose --release
+cargo build --verbose # --release
 
 echo $RUSTROOT > $OPENSHIFT_RUST_DIR/env/RUSTROOT
 echo $RUSTPATH > $OPENSHIFT_RUST_DIR/env/RUSTPATH
